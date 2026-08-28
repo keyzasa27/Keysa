@@ -29,7 +29,6 @@ body {
 
 .hero {
     min-height: 100vh;
-
     background:
         radial-gradient(
             circle at 80% 30%,
@@ -44,7 +43,6 @@ body {
 
     display: flex;
     align-items: center;
-
     padding: 80px 25px;
 }
 
@@ -61,7 +59,7 @@ body {
 }
 
 
-/* HERO TEXT */
+/* ================= HERO TEXT ================= */
 
 .hello {
     color: var(--primary);
@@ -93,7 +91,7 @@ body {
 }
 
 
-/* BUTTON */
+/* ================= BUTTON ================= */
 
 .hero-buttons {
     display: flex;
@@ -103,9 +101,7 @@ body {
 
 .btn {
     text-decoration: none;
-
     padding: 12px 22px;
-
     border-radius: 10px;
 
     font-family: inherit;
@@ -119,7 +115,6 @@ body {
     justify-content: center;
 
     gap: 8px;
-
     transition: 0.3s;
 }
 
@@ -147,7 +142,6 @@ body {
 
 .hero-card {
     background: white;
-
     border: 1px solid var(--border);
     border-radius: 30px;
 
@@ -168,7 +162,6 @@ body {
     margin: auto;
 
     border-radius: 50%;
-
     overflow: hidden;
 
     background:
@@ -185,9 +178,7 @@ body {
 .profile-circle img {
     width: 100%;
     height: 100%;
-
     display: block;
-
     object-fit: cover;
 }
 
@@ -201,34 +192,29 @@ body {
 }
 
 
-/* MINI INFO */
+/* ================= MINI INFO ================= */
 
 .mini-info {
     display: flex;
     justify-content: center;
-
     gap: 10px;
-
     margin-top: 20px;
 }
 
 .mini-info span {
     padding: 7px 12px;
-
     border-radius: 20px;
 
     background: #f6f0ff;
-
     color: var(--primary);
 
     font-size: 12px;
 }
 
 
-/* ANIMATION */
+/* ================= ANIMATION ================= */
 
 @keyframes floating {
-
     0%,
     100% {
         transform: translateY(0);
@@ -244,9 +230,7 @@ body {
 
 .section {
     max-width: 1100px;
-
     margin: auto;
-
     padding: 100px 25px;
 }
 
@@ -256,17 +240,13 @@ body {
 
 .section-title p {
     color: var(--primary);
-
     font-size: 13px;
-
     font-weight: 700;
-
     letter-spacing: 3px;
 }
 
 .section-title h2 {
     font-size: 38px;
-
     margin-top: 5px;
 }
 
@@ -275,11 +255,8 @@ body {
 
 .about-container {
     display: grid;
-
     grid-template-columns: 0.8fr 1.2fr;
-
     gap: 60px;
-
     align-items: center;
 }
 
@@ -288,14 +265,12 @@ body {
 
 .about-image {
     width: 100%;
-    max-width: 450px;
-
-    height: 450px;
+    max-width: 400px;
+    height: 430px;
 
     margin: auto;
 
     border-radius: 30px;
-
     overflow: hidden;
 
     background:
@@ -314,52 +289,42 @@ body {
     height: 100%;
 
     display: block;
-
     object-fit: cover;
 }
 
 
-/* ABOUT TEXT */
+/* ================= ABOUT TEXT ================= */
 
 .about-content h3 {
     font-size: 27px;
-
     margin-bottom: 15px;
 }
 
 .about-content p {
     color: var(--text);
-
     margin-bottom: 15px;
 }
 
 
-/* ABOUT INFO */
+/* ================= ABOUT INFO ================= */
 
 .about-info {
     display: grid;
-
-    grid-template-columns:
-        repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 
     gap: 12px;
-
     margin-top: 25px;
 }
 
 .about-info div {
     padding: 15px;
-
     background: var(--light);
-
     border-radius: 12px;
 }
 
 .about-info span {
     display: block;
-
     font-size: 11px;
-
     color: var(--text);
 }
 
@@ -372,7 +337,6 @@ body {
 
 .skills-section {
     max-width: none;
-
     background: var(--light);
 
     padding-left:
@@ -390,10 +354,7 @@ body {
 
 .skills-container {
     display: grid;
-
-    grid-template-columns:
-        repeat(4, 1fr);
-
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
@@ -403,7 +364,6 @@ body {
     padding: 30px 22px;
 
     border: 1px solid var(--border);
-
     border-radius: 18px;
 
     transition: 0.3s;
@@ -427,7 +387,6 @@ body {
     justify-content: center;
 
     background: #f1e8ff;
-
     color: var(--primary);
 }
 
@@ -437,9 +396,7 @@ body {
 
 .skill-card p {
     color: var(--text);
-
     font-size: 13px;
-
     min-height: 80px;
 }
 
@@ -447,17 +404,14 @@ body {
     height: 7px;
 
     background: #eee9f4;
-
     border-radius: 20px;
 
     overflow: hidden;
-
     margin-top: 20px;
 }
 
 .skill-bar span {
     display: block;
-
     height: 100%;
 
     background:
@@ -472,9 +426,7 @@ body {
 
 .skill-card small {
     display: block;
-
     margin-top: 8px;
-
     color: var(--primary);
 }
 
@@ -483,9 +435,7 @@ body {
 
 .timeline {
     max-width: 800px;
-
     margin: auto;
-
     position: relative;
 }
 
@@ -495,12 +445,10 @@ body {
     position: absolute;
 
     left: 8px;
-
     top: 0;
     bottom: 0;
 
     width: 2px;
-
     background: #e5d7f8;
 }
 
@@ -508,7 +456,6 @@ body {
     position: relative;
 
     padding-left: 45px;
-
     margin-bottom: 45px;
 }
 
@@ -535,7 +482,6 @@ body {
     display: inline-block;
 
     background: #f0e7ff;
-
     color: var(--primary);
 
     padding: 5px 12px;
@@ -543,7 +489,6 @@ body {
     border-radius: 20px;
 
     font-size: 12px;
-
     font-weight: 600;
 }
 
@@ -573,26 +518,17 @@ body {
 
 .goal-content {
     max-width: 900px;
-
     margin: auto;
 }
 
 .goal-content > p:first-child {
     font-size: 13px;
-
     font-weight: 700;
-
     letter-spacing: 3px;
 }
 
 .goal-content h2 {
-    font-size:
-        clamp(
-            40px,
-            6vw,
-            65px
-        );
-
+    font-size: clamp(40px, 6vw, 65px);
     line-height: 1.1;
 
     margin: 15px 0;
@@ -600,7 +536,6 @@ body {
 
 .goal-content p:last-child {
     max-width: 600px;
-
     opacity: 0.85;
 }
 
@@ -613,7 +548,6 @@ body {
 
 .contact-container {
     display: grid;
-
     grid-template-columns: 1fr 1fr;
 
     gap: 60px;
@@ -621,35 +555,36 @@ body {
 
 .contact-info h3 {
     font-size: 28px;
-
     margin-bottom: 15px;
 }
 
 .contact-info > p {
     color: var(--text);
-
     margin-bottom: 30px;
 }
 
+
+/* CONTACT ITEM */
+
 .contact-item {
     display: flex;
-
     align-items: center;
 
     gap: 15px;
-
     margin-bottom: 20px;
 }
 
 .contact-item svg {
+    width: 22px;
+    height: 22px;
     color: var(--primary);
+    flex-shrink: 0;
 }
 
 .contact-item span {
     display: block;
 
     color: var(--text);
-
     font-size: 12px;
 }
 
@@ -657,11 +592,33 @@ body {
     font-size: 14px;
 }
 
+
+/* LINK CONTACT */
+
+.contact-link {
+    text-decoration: none;
+    color: var(--dark);
+
+    padding: 10px;
+
+    margin-left: -10px;
+
+    border-radius: 12px;
+
+    transition: 0.3s;
+}
+
+.contact-link:hover {
+    background: var(--light);
+    transform: translateX(5px);
+}
+
+
+/* FORM */
+
 form {
     display: flex;
-
     flex-direction: column;
-
     gap: 15px;
 }
 
@@ -672,13 +629,11 @@ textarea {
     padding: 15px;
 
     border: 1px solid var(--border);
-
     border-radius: 12px;
 
     font-family: inherit;
 
     outline: none;
-
     resize: vertical;
 }
 
@@ -700,19 +655,15 @@ footer {
     border-top: 1px solid var(--border);
 
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
 
     max-width: 1100px;
-
     margin: auto;
 }
 
 .footer-logo {
     font-size: 20px;
-
     font-weight: 700;
 }
 
@@ -722,30 +673,25 @@ footer {
 
 footer p {
     color: var(--text);
-
     font-size: 12px;
 }
 
 .socials {
     display: flex;
-
     gap: 10px;
 }
 
 .socials a {
-    width: 35px;
-    height: 35px;
+    width: 38px;
+    height: 38px;
 
     border-radius: 50%;
 
     background: var(--light);
-
     color: var(--primary);
 
     display: flex;
-
     align-items: center;
-
     justify-content: center;
 
     transition: 0.3s;
@@ -753,8 +699,9 @@ footer p {
 
 .socials a:hover {
     background: var(--primary);
-
     color: white;
+
+    transform: translateY(-3px);
 }
 
 
@@ -768,9 +715,7 @@ footer p {
 
     .hero-content {
         grid-template-columns: 1fr;
-
         gap: 45px;
-
         text-align: center;
     }
 
@@ -786,28 +731,25 @@ footer p {
     .hero-card {
         width: 100%;
         max-width: 400px;
-
         margin: auto;
     }
 
     .about-container {
         grid-template-columns: 1fr;
-
         gap: 40px;
     }
 
     .about-image {
-        max-width: 500px;
+        max-width: 350px;
+        height: 400px;
     }
 
     .skills-container {
-        grid-template-columns:
-            repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .contact-container {
         grid-template-columns: 1fr;
-
         gap: 40px;
     }
 }
@@ -817,27 +759,31 @@ footer p {
 
 @media (max-width: 550px) {
 
+    body {
+        width: 100%;
+    }
+
     .hero {
         min-height: auto;
-
-        padding: 80px 18px 60px;
+        padding: 75px 18px 55px;
     }
 
     .hero h1 {
-        font-size: 60px;
+        font-size: 58px;
     }
 
     .hero h2 {
-        font-size: 20px;
+        font-size: 19px;
+        line-height: 1.5;
     }
 
     .hero-description {
         font-size: 14px;
+        line-height: 1.7;
     }
 
     .hero-buttons {
         flex-direction: column;
-
         width: 100%;
     }
 
@@ -849,14 +795,18 @@ footer p {
     /* FOTO HERO HP */
 
     .hero-card {
-        padding: 30px 20px;
-
-        border-radius: 25px;
+        padding: 28px 18px;
+        border-radius: 24px;
     }
 
     .profile-circle {
-        width: 160px;
-        height: 160px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .hero-card h3 {
+        font-size: 22px;
+        margin-top: 20px;
     }
 
 
@@ -877,12 +827,32 @@ footer p {
 
     /* FOTO ABOUT HP */
 
-.about-image {
-    width: 230px;
-    height: 270px;
-    margin: auto;
-    border-radius: 22px;
-}
+    .about-image {
+        width: 220px;
+        height: 260px;
+
+        margin: auto;
+
+        border-radius: 22px;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    /* ABOUT TEXT */
+
+    .about-content h3 {
+        font-size: 23px;
+    }
+
+    .about-content p {
+        font-size: 14px;
+    }
+
 
     /* ABOUT INFO */
 
@@ -903,10 +873,49 @@ footer p {
     }
 
 
+    /* TIMELINE */
+
+    .timeline-item {
+        padding-left: 35px;
+    }
+
+
     /* GOAL */
 
     .goal-section {
         padding: 70px 18px;
+    }
+
+    .goal-content h2 {
+        font-size: 42px;
+    }
+
+
+    /* CONTACT */
+
+    .contact-container {
+        gap: 35px;
+    }
+
+    .contact-info h3 {
+        font-size: 24px;
+    }
+
+    .contact-item {
+        gap: 12px;
+    }
+
+    .contact-item strong {
+        font-size: 13px;
+        word-break: break-word;
+    }
+
+    .contact-link {
+        padding: 10px;
+    }
+
+    form button {
+        width: 100%;
     }
 
 
@@ -914,10 +923,11 @@ footer p {
 
     footer {
         flex-direction: column;
-
         gap: 15px;
-
         text-align: center;
     }
 
-        }
+    .socials {
+        margin-top: 5px;
+    }
+    }
