@@ -877,12 +877,12 @@ footer p {
 
     /* FOTO ABOUT HP */
 
-    .about-image {
-        height: 350px;
-
-        border-radius: 25px;
-    }
-
+.about-image {
+    width: 230px;
+    height: 270px;
+    margin: auto;
+    border-radius: 22px;
+}
 
     /* ABOUT INFO */
 
