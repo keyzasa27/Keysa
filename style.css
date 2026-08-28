@@ -103,7 +103,6 @@ body {
 
 .btn {
     text-decoration: none;
-
     padding: 12px 22px;
 
     border-radius: 10px;
@@ -168,7 +167,6 @@ body {
     margin: auto;
 
     border-radius: 50%;
-
     overflow: hidden;
 
     background:
@@ -187,7 +185,6 @@ body {
     height: 100%;
 
     display: block;
-
     object-fit: cover;
 }
 
@@ -208,7 +205,6 @@ body {
     justify-content: center;
 
     gap: 10px;
-
     margin-top: 20px;
 }
 
@@ -218,7 +214,6 @@ body {
     border-radius: 20px;
 
     background: #f6f0ff;
-
     color: var(--primary);
 
     font-size: 12px;
@@ -228,7 +223,6 @@ body {
 /* ================= ANIMATION ================= */
 
 @keyframes floating {
-
     0%,
     100% {
         transform: translateY(0);
@@ -244,9 +238,7 @@ body {
 
 .section {
     max-width: 1100px;
-
     margin: auto;
-
     padding: 100px 25px;
 }
 
@@ -258,15 +250,12 @@ body {
     color: var(--primary);
 
     font-size: 13px;
-
     font-weight: 700;
-
     letter-spacing: 3px;
 }
 
 .section-title h2 {
     font-size: 38px;
-
     margin-top: 5px;
 }
 
@@ -279,23 +268,17 @@ body {
     grid-template-columns: 0.8fr 1.2fr;
 
     gap: 60px;
-
     align-items: center;
 }
-
-
-/* FOTO ABOUT */
 
 .about-image {
     width: 100%;
     max-width: 400px;
-
     height: 430px;
 
     margin: auto;
 
     border-radius: 30px;
-
     overflow: hidden;
 
     background:
@@ -314,7 +297,6 @@ body {
     height: 100%;
 
     display: block;
-
     object-fit: cover;
 }
 
@@ -323,13 +305,11 @@ body {
 
 .about-content h3 {
     font-size: 27px;
-
     margin-bottom: 15px;
 }
 
 .about-content p {
     color: var(--text);
-
     margin-bottom: 15px;
 }
 
@@ -338,12 +318,9 @@ body {
 
 .about-info {
     display: grid;
-
-    grid-template-columns:
-        repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 
     gap: 12px;
-
     margin-top: 25px;
 }
 
@@ -351,7 +328,6 @@ body {
     padding: 15px;
 
     background: var(--light);
-
     border-radius: 12px;
 }
 
@@ -359,7 +335,6 @@ body {
     display: block;
 
     font-size: 11px;
-
     color: var(--text);
 }
 
@@ -391,8 +366,7 @@ body {
 .skills-container {
     display: grid;
 
-    grid-template-columns:
-        repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 
     gap: 20px;
 }
@@ -403,7 +377,6 @@ body {
     padding: 30px 22px;
 
     border: 1px solid var(--border);
-
     border-radius: 18px;
 
     transition: 0.3s;
@@ -427,7 +400,6 @@ body {
     justify-content: center;
 
     background: #f1e8ff;
-
     color: var(--primary);
 }
 
@@ -439,7 +411,6 @@ body {
     color: var(--text);
 
     font-size: 13px;
-
     min-height: 80px;
 }
 
@@ -447,17 +418,14 @@ body {
     height: 7px;
 
     background: #eee9f4;
-
     border-radius: 20px;
 
     overflow: hidden;
-
     margin-top: 20px;
 }
 
 .skill-bar span {
     display: block;
-
     height: 100%;
 
     background:
@@ -472,7 +440,6 @@ body {
 
 .skill-card small {
     display: block;
-
     margin-top: 8px;
 
     color: var(--primary);
@@ -485,7 +452,6 @@ body {
     max-width: 800px;
 
     margin: auto;
-
     position: relative;
 }
 
@@ -495,12 +461,10 @@ body {
     position: absolute;
 
     left: 8px;
-
     top: 0;
     bottom: 0;
 
     width: 2px;
-
     background: #e5d7f8;
 }
 
@@ -508,7 +472,6 @@ body {
     position: relative;
 
     padding-left: 45px;
-
     margin-bottom: 45px;
 }
 
@@ -535,7 +498,6 @@ body {
     display: inline-block;
 
     background: #f0e7ff;
-
     color: var(--primary);
 
     padding: 5px 12px;
@@ -543,7 +505,6 @@ body {
     border-radius: 20px;
 
     font-size: 12px;
-
     font-weight: 600;
 }
 
@@ -573,7 +534,6 @@ body {
 
 .goal-content {
     max-width: 900px;
-
     margin: auto;
 }
 
@@ -581,17 +541,11 @@ body {
     font-size: 13px;
 
     font-weight: 700;
-
     letter-spacing: 3px;
 }
 
 .goal-content h2 {
-    font-size:
-        clamp(
-            40px,
-            6vw,
-            65px
-        );
+    font-size: clamp(40px, 6vw, 65px);
 
     line-height: 1.1;
 
@@ -600,7 +554,6 @@ body {
 
 .goal-content p:last-child {
     max-width: 600px;
-
     opacity: 0.85;
 }
 
@@ -621,18 +574,27 @@ body {
 
 .contact-info h3 {
     font-size: 28px;
-
     margin-bottom: 15px;
 }
 
 .contact-info > p {
     color: var(--text);
-
     margin-bottom: 30px;
 }
 
 
-/* ================= CONTACT ITEM ================= */
+/* ================= CONTACT LIST ================= */
+
+.contact-list {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 22px;
+}
+
+
+/* SEMUA KONTAK SAMA */
 
 .contact-item {
     display: flex;
@@ -641,10 +603,35 @@ body {
 
     gap: 15px;
 
-    margin-bottom: 20px;
+    min-height: 48px;
+
+    margin: 0;
+
+    color: var(--dark);
 }
 
-.contact-item svg {
+
+/* LINK WHATSAPP & INSTAGRAM */
+
+a.contact-item {
+    text-decoration: none;
+}
+
+
+/* HILANGKAN KOTAK SAAT DISENTUH */
+
+a.contact-item:hover,
+a.contact-item:active,
+a.contact-item:focus {
+    background: transparent;
+    transform: none;
+}
+
+
+/* IKON */
+
+.contact-item > svg,
+.contact-item > i {
     width: 24px;
     height: 24px;
 
@@ -666,38 +653,26 @@ body {
 }
 
 
-/* CONTACT LINK */
-
-.contact-link {
-    text-decoration: none;
-
-    color: var(--dark);
-
-    padding: 10px;
-
-    margin-left: -10px;
-
-    border-radius: 12px;
-
-    transition: 0.3s;
-}
-
-.contact-link:hover {
-    background: var(--light);
-
-    transform: translateX(5px);
-}
+/* TEKS KONTAK */
 
 .contact-item span {
     display: block;
 
     color: var(--text);
 
-    font-size: 12px;
+    font-size: 13px;
+
+    line-height: 1.4;
 }
 
 .contact-item strong {
-    font-size: 14px;
+    display: block;
+
+    color: var(--dark);
+
+    font-size: 15px;
+
+    line-height: 1.5;
 }
 
 
@@ -752,13 +727,11 @@ footer {
     align-items: center;
 
     max-width: 1100px;
-
     margin: auto;
 }
 
 .footer-logo {
     font-size: 20px;
-
     font-weight: 700;
 }
 
@@ -768,13 +741,11 @@ footer {
 
 footer p {
     color: var(--text);
-
     font-size: 12px;
 }
 
 .socials {
     display: flex;
-
     gap: 10px;
 }
 
@@ -785,13 +756,11 @@ footer p {
     border-radius: 50%;
 
     background: var(--light);
-
     color: var(--primary);
 
     display: flex;
 
     align-items: center;
-
     justify-content: center;
 
     transition: 0.3s;
@@ -804,7 +773,6 @@ footer p {
 
 .socials a:hover {
     background: var(--primary);
-
     color: white;
 
     transform: translateY(-3px);
@@ -852,13 +820,11 @@ footer p {
 
     .about-image {
         max-width: 350px;
-
         height: 400px;
     }
 
     .skills-container {
-        grid-template-columns:
-            repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .contact-container {
@@ -889,13 +855,11 @@ footer p {
 
     .hero h2 {
         font-size: 19px;
-
         line-height: 1.5;
     }
 
     .hero-description {
         font-size: 14px;
-
         line-height: 1.7;
     }
 
@@ -904,7 +868,6 @@ footer p {
 
     .hero-buttons {
         flex-direction: column;
-
         width: 100%;
     }
 
@@ -928,7 +891,6 @@ footer p {
 
     .hero-card h3 {
         font-size: 22px;
-
         margin-top: 20px;
     }
 
@@ -989,7 +951,6 @@ footer p {
 
     .skills-section {
         padding-left: 18px;
-
         padding-right: 18px;
     }
 
@@ -1028,20 +989,43 @@ footer p {
 
     .contact-info > p {
         font-size: 14px;
+        line-height: 1.8;
+    }
+
+    /* JARAK KONTAK HP SAMA */
+
+    .contact-list {
+        gap: 24px;
     }
 
     .contact-item {
-        gap: 12px;
+        gap: 14px;
+        min-height: 48px;
+    }
+
+    .contact-item span {
+        font-size: 12px;
     }
 
     .contact-item strong {
-        font-size: 13px;
-
+        font-size: 14px;
         word-break: break-word;
     }
 
-    .contact-link {
-        padding: 10px;
+    .contact-item > svg,
+    .contact-item > i,
+    .instagram-icon {
+        width: 24px !important;
+        height: 24px !important;
+    }
+
+
+    /* FORM */
+
+    input,
+    textarea {
+        font-size: 14px;
+        padding: 15px;
     }
 
     form button {
@@ -1062,4 +1046,4 @@ footer p {
     .socials {
         margin-top: 5px;
     }
-}
+    }
